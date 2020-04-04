@@ -339,7 +339,7 @@ function gameloop() {
 
   refresh_pos();
   checkFocus();
-
+  requestAnimationFrame(gameloop);
 }
 
 function rotate2dVector(vec, by) {
